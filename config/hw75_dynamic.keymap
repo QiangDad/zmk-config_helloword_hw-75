@@ -38,5 +38,15 @@
 			bindings = <&lvkp LV_KEY_PREV &lvkp LV_KEY_NEXT>;
 			sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
 		};
+		arrow_horizontal {
+			label = "PS";
+			bindings = <&lvkp LV_KEY_PREV &lvkp LV_KEY_NEXT>;
+			sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
+		};
+		arrow_horizontal {
+			label = "ZB";
+			bindings = <&lvkp LV_KEY_PREV &lvkp LV_KEY_NEXT>;
+			sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
+		};
 	};
 };
